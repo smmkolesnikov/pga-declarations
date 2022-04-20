@@ -1,31 +1,21 @@
-# Open Terms Archive - template for declarations
+# Open Terms Archive - pga services
 
-This is a template for the `declarations` repository of [Open Terms Archive](https://opentermsarchive.org)
+These services declarations are maintained by pga and tracked on [Open Terms Archive](https://opentermsarchive.org).
 
-**NOTE**: When creating from this template, please keep the naming structure of `${instanceName}-declarations` in order to keep consistency across repos and organisations. 
+These service declarations are consumed by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive). See the Open Terms Archive [contribution guidelines](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md) to learn how to add and update services or documents.
 
-In order to use it, follow this simple steps:
-- Navigate to https://github.com/OpenTermsArchive/template-declarations
-- Click on `Use this template`
-- Enter the name of the target repository `${instanceName}-declarations` and the target organization
+You can [explore the tracked versions](https://github.com/OpenTermsArchive/pga-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/pga-versions/releases) in the `OpenTermsArchive/pga-versions` repository.
 
-or check the complete doc: [How to use a template on Github](https://docs.github.com/en/github-ae@latest/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+## Scope
 
-Then you need to
-- Follow the instructions to [Continuous Deployment](#continuous-deployment)
-- clone the repository you just created and named `${instanceName}-declarations`
-- launch `./init.sh ${instanceName} "${instanceMaintainer}"` (instanceMaintainer being the name of the entity that will maintain the declarations)
-- commit the files to git `git add . && git commit -m "Initiate instance"`
+The documents declared in this repository are:
 
-This will replace the corresponding variables in the files and remove the now useless files.
+- ...
 
-## Continuous Deployment
+## Contributing
 
-For continuous deployment on your server, you need to define the following variables as [GitHub secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository):
+See [contrib-declarations repository](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md) to have explanations on how to add and update services or documents.
 
-- `SERVER_FINGERPRINT`: obtained with `ssh-keyscan -H $serverAddress`.
-- `SERVER_SSH_KEY`: a private SSH key allowed to connect to your server.
-> You can for example generate one on your server with `ssh-keygen -q -N "" -f ~/.ssh/ota-deploy && cat ~/.ssh/ota-deploy.pub >> authorized_keys`, and store the contents of `~/.ssh/ota-deploy` as the `SERVER_SSH_KEY` secret.
 
 - - - -
 
