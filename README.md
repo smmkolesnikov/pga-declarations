@@ -10,7 +10,23 @@ You can [explore the tracked versions](https://github.com/OpenTermsArchive/pga-v
 
 The documents declared in this repository are:
 
-- ...
+- Facebook
+- Instagram
+- Line
+- LinkedIn
+- Parler
+- Pinterest
+- Quora
+- Reddit
+- Snapchat
+- Spotify
+- Telegram
+- TikTok
+- Tumblr
+- Twitch
+- WeChat
+- WhatsApp
+- YouTube
 
 ## Contributing
 
