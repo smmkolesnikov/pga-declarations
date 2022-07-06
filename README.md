@@ -24,6 +24,7 @@ The documents declared in this repository are:
 - TikTok
 - Tumblr
 - Twitch
+- Twitter
 - WeChat
 - WhatsApp
 - YouTube
