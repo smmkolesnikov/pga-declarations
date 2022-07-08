@@ -1,4 +1,4 @@
-# Open Terms Archive - PGA Services
+# Open Terms Archive - PGA services
 
 These services declarations are maintained by the [Platform Governance Archive](https://pga.hiig.de/) at the Universität Bremen's [Center for Media Communication and Information Research (ZeMKI)](https://www.uni-bremen.de/zemki) and tracked on [Open Terms Archive](https://opentermsarchive.org).
 
