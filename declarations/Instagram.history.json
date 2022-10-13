@@ -15,6 +15,23 @@
       ],
       "executeClientScripts": true,
       "validUntil": "2022-09-22T04:33:26+04:00"
+    },
+    {
+      "fetch": "https://help.instagram.com/581066165581870",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "div[aria-label=\"Copy Link\"]",
+        "[id='Related Articles']",
+        "fieldset"
+      ],
+      "filter": [
+        "cleanUrls",
+        "removeTrackingIDsE"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-09-23T04:33:26+04:00"
     }
   ],
   "Privacy Policy": [
@@ -69,6 +86,18 @@
         "removeTrackingIDs"
       ],
       "validUntil": "2022-09-22T04:33:26+04:00"
+    }
+  ],
+  "Developer Terms": [
+    {
+      "fetch": "https://developers.facebook.com/terms",
+      "select": [
+        "#rebrandBodyID"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "validUntil": "2022-09-23T04:33:26+04:00"
     }
   ]
 }
