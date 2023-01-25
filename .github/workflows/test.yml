@@ -2,8 +2,11 @@ name: Validate declarations
 
 on:
   push:
+    branches-ignore:
+      - 'main'
   pull_request:
     types: [ opened, reopened ]
+  workflow_call:
 
 jobs:
   validate_schema:
@@ -21,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # fetch all history in order to identify modified declarations
+          fetch-depth: 0 # fetch all history for all branches and tags
       - uses: actions/setup-node@v3
         with:
           node-version: 16
