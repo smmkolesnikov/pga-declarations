@@ -23,7 +23,7 @@
       "remove": [
         ".k",
         ".l",
-        ".bc",
+        ".bh",
         "img[style=\"display:none\"]"
       ],
       "filter": [
@@ -41,18 +41,22 @@
     "Trackers Policy": {
       "fetch": "https://www.facebook.com/policies/cookies",
       "filter": [
-        "removeImgFromCookiesPolicy",
         "removeReturnToTopButtons",
         "cleanUrls"
       ],
-      "select": "._5tkp"
+      "select": ".xg6iff7",
+      "remove": "[href*='static.xx.fbcdn.net']",
+      "executeClientScripts": true
     },
     "Commercial Terms": {
       "fetch": "https://www.facebook.com/legal/commercial_terms",
       "select": [
+        "div[role=main]"
+      ],
+      "remove": [
         {
-          "startBefore": "div[role=main]",
-          "endBefore": "[role=\"separator\"]:first-child"
+          "startBefore": "[role=\"separator\"]:first-child",
+          "endAfter": "[role=\"contentinfo\"]"
         }
       ],
       "filter": [
@@ -63,10 +67,10 @@
     "Data Processor Agreement": {
       "fetch": "https://www.facebook.com/legal/EU_data_transfer_addendum",
       "select": [
-        "div[role=main]"
-      ],
-      "remove": [
-        ".rq0escxv .l9j0dhe7 .du4w35lb .j83agx80 .cbu4d94t .pfnyh3mw .d2edcug0 .pybr56ya"
+        {
+          "startBefore": "div[role=main]",
+          "endBefore": "[role=\"separator\"]:first-child"
+        }
       ],
       "filter": [
         "removeTrackingIDs"

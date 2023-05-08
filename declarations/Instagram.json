@@ -113,14 +113,17 @@
         "div[role=\"main\"]"
       ],
       "remove": [
-        "div[aria-label=\"Copy Link\"]",
+        "nav[role=\"navigation\"]",
+        "div[aria-label=\"Copy link\"]",
         "[id='Related Articles']",
-        "fieldset"
+        "fieldset",
+        "[href*='https://privacycenter.instagram.com/policy/']",
+        "[href*='https://help.instagram.com/519522125107875?helpref=faq_content']"
       ],
-      "executeClientScripts": true,
       "filter": [
-        "removeTrackingIDsE"
-      ]
+        "removeLinks"
+      ],
+      "executeClientScripts": true
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/terms",
@@ -131,7 +134,7 @@
         "img[src*='https://scontent']"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeLinks"
       ]
     }
   }

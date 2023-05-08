@@ -8,3 +8,29 @@ export function removeDownloadedForUseLinkExtension(document) {
     }
   });
 }
+
+export function removeTrackingIDs(document) {
+  removeQueryParam(document, '?trk=microsites-frontend_legal_privacy-policy&lang=en');
+}
+
+function removeQueryParam(document, queryParam) {
+  document.querySelectorAll('a').forEach(el => {
+    const href = el.getAttribute('href');
+    const params = new URLSearchParams(href);
+
+    if (params.has(queryParam)) {
+      params.delete(queryParam);
+      el.setAttribute('href', params.toString());
+    }
+  });
+}
+
+export function removeLinks(document) {
+  const elements = document.querySelectorAll('a');
+
+  elements.forEach(element => {
+    if (element.hasAttribute('href')) {
+      element.removeAttribute('href');
+    }
+  });
+}

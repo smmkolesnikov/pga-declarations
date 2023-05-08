@@ -1,0 +1,349 @@
+{
+  "documents": {
+    "LINE": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      }
+    },
+    "Facebook": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "skipCommit": [
+          "ddb181a8a0eddf20a40898552892eac93326eee5",
+          "f9ed30c4d4e71ec7ed74bb9d2484455b192eeb09",
+          "759fba3e7a57dafd9ec8c93293db7d183cbae668",
+          "97d50a893a149066643ecfa0a4d270f954890554",
+          "a710e4c5c4ca09e719997bf3c21338a7cd72bcf1",
+          "50e684e8c905f885c67456420aa18dc85ab3840f",
+          "c97899fd6867c2f833a5e5395acee75ebef94b58"
+        ],
+        "done": "2023-02-22T10:56:26.781Z"
+      },
+      "Developer Terms": {
+        "done": true
+      },
+      "Trackers Policy": {
+        "skipCommit": [
+          "1d988a914ec4050e764e4f895c4fa9e7c7cb9463",
+          "5757891a58708b32842738d3453c1841a654c868",
+          "1caf56de2c543f8f7934c3b0b8652136a928b86a"
+        ],
+        "skipSelector": [
+          "[href*='static.xx.fbcdn.net']"
+        ],
+        "done": true
+      },
+      "Commercial Terms": {
+        "done": true
+      },
+      "Data Processor Agreement": {
+        "done": true
+      },
+      "Live Policy": {
+        "skipCommit": [
+          "9735b3f8ca082e0ba16e41752ce53e19bccf34ee"
+        ],
+        "done": true
+      },
+      "Law Enforcement Guidelines": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Quora": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "WhatsApp": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      },
+      "Trackers Policy": {
+        "done": true
+      }
+    },
+    "Parler": {
+      "Privacy Policy": {
+        "done": true
+      },
+      "Terms of Service": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Snapchat": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": "2023-02-22T07:50:44.375Z"
+      },
+      "Trackers Policy": {
+        "skipSelector": [
+          ".TermContainer-sc-1iiqds3"
+        ],
+        "done": "2023-02-22T08:06:35.967Z"
+      },
+      "Community Guidelines": {
+        "skipSelector": [
+          ".TermContainer-sc-1iiqds3"
+        ],
+        "done": "2023-02-22T08:11:12.355Z"
+      }
+    },
+    "Pinterest": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Twitch": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "skipCommit": [
+          "8119f06a7a2d94b82a8a78802427be348b2f3d91",
+          "efb2f40292f4e85b4cfd6cfd165b418c838e8956",
+          "055d1c62976840adac3e64ed8375af6b1fa195de",
+          "5e1eb904988fc4c8465563b6e2942cb26fb04bfa",
+          "a177b71d0a0163b91441ba9061961b3402c471bf",
+          "1edde629ba8d74d34112a6c5acfb9be5ca1690db",
+          "dd695b20b1430e07bea71c83b97c5ae3364fa891",
+          "024a3039d8ebc5ad0344af0edf720f00c65bc80a"
+        ],
+        "done": "2023-02-22T10:35:32.596Z"
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Reddit": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      },
+      "Live Policy": {
+        "done": true
+      },
+      "Quality Guidelines": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Telegram": {
+      "Privacy Policy": {
+        "done": true
+      },
+      "Terms of Service": {
+        "done": true
+      },
+      "Developer Terms": {
+        "done": true
+      }
+    },
+    "YouTube": {
+      "Privacy Policy": {
+        "done": true
+      },
+      "Terms of Service": {
+        "done": true
+      },
+      "Developer Terms": {
+        "done": true
+      },
+      "Copyright Claims Policy": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Tumblr": {
+      "Privacy Policy": {
+        "done": "2023-04-28T13:20:31.661Z"
+      },
+      "Terms of Service": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "skipCommit": [
+          "88f8dcd944e3a622ddb65183dca04df45fb41871"
+        ],
+        "done": true
+      }
+    },
+    "Spotify": {
+      "Privacy Policy": {
+        "done": true
+      },
+      "Terms of Service": {
+        "done": true
+      },
+      "Acceptable Use Policy": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "WeChat": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      },
+      "Acceptable Use Policy": {
+        "done": true
+      }
+    },
+    "LinkedIn": {
+      "Privacy Policy": {
+        "skipSelector": [
+          "[href*='?trk=microsites-frontend_legal_privacy-policy&lang=en']"
+        ],
+        "done": true
+      },
+      "Trackers Policy": {
+        "done": true
+      },
+      "Terms of Service": {
+        "done": true
+      },
+      "Developer Terms": {
+        "done": true
+      },
+      "Community Guidelines": {},
+      "Brand Guidelines": {
+        "done": true
+      }
+    },
+    "TikTok": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "skipSelector": [
+          "[lang=de-DE]"
+        ],
+        "skipContent": {
+          "Datenschutzerklärung": "article"
+        },
+        "skipCommit": [
+          "55c2f648c1dae6e82cea7866614afb28a3dc2918",
+          "7ed851aab59f3ef81e0cccd2f9e3c707dc59fa22",
+          "811d182cf199b8469d42a153ecd01f0bb17ce478",
+          "ad173d87a5185d94291f58ff45d73e80433542e4",
+          "1e0589a77876ece998fc8bcdd3357ca7a02df6f8",
+          "9ee437e84f8e84ff4bb08ff949279e2e5a8d7bae",
+          "60f6521e55fd8659009038fc9e35b4ed70630c98",
+          "830fa6948d831b7fa539683d684f95344c5a6300",
+          "0d8739c9301a530ada0b4023c4a784a4c9b4cf70",
+          "be6dc811b38dcb7609c04398c9878606e34846f2",
+          "0188648a85b360080188da84c7c9a0c8efb6e4eb",
+          "d1e9c8d5c4e190ea338bc1119ebe5979c923b9d2",
+          "a05575abd3d930a295bf5a98094c7213ac0560a4"
+        ],
+        "done": "2023-02-22T09:52:25.822Z"
+      },
+      "Law Enforcement Guidelines": {
+        "done": true
+      },
+      "Copyright Claims Policy": {
+        "done": true
+      },
+      "In-App Purchases Policy": {
+        "done": true
+      },
+      "Trackers Policy": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Twitter": {
+      "Terms of Service": {
+        "done": true
+      },
+      "Privacy Policy": {
+        "done": true
+      },
+      "Developer Terms": {
+        "done": true
+      },
+      "Law Enforcement Guidelines": {
+        "done": true
+      },
+      "Trackers Policy": {
+        "done": true
+      },
+      "Data Processor Agreement": {
+        "done": true
+      },
+      "Deceased Users": {
+        "done": true
+      },
+      "Copyright Claims Policy": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    },
+    "Instagram": {
+      "Privacy Policy": {
+        "skipCommit": [
+          "3d797614098acc86206dd903852cfdb0133f0466",
+          "146e92ec99d8235948754c1e660c189b4cc813b6",
+          "db67e02fc8c88900f8be6d476e5512c0c0f1b3d0",
+          "ea3d86022452657956fcf5a4a1997f8f244b6ed0",
+          "7372be3eb2bad325e834f72280089c5f9e126fc2"
+        ],
+        "done": "2023-02-22T11:06:31.738Z"
+      },
+      "Terms of Service": {
+        "done": true
+      },
+      "Law Enforcement Guidelines": {
+        "done": true
+      },
+      "Developer Terms": {
+        "done": true
+      },
+      "Community Guidelines": {
+        "done": true
+      }
+    }
+  },
+  "documentTypes": {}
+}

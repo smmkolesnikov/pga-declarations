@@ -10,6 +10,9 @@
         ".callout > svg",
         ".expandable-section__header",
         ".banner__image-container "
+      ],
+      "filter": [
+        "removeTrackingIDs"
       ]
     },
     "Trackers Policy": {
@@ -44,7 +47,8 @@
         "#banner-content-container-banner_1202100886"
       ],
       "filter": [
-        "removeDownloadedForUseLinkExtension"
+        "removeDownloadedForUseLinkExtension",
+        "removeLinks"
       ]
     },
     "Community Guidelines": {
@@ -68,7 +72,7 @@
           ]
         },
         {
-          "fetch": "https://www.linkedin.com/help/linkedin/answer/137369"
+          "fetch": "https://www.linkedin.com/help/linkedin/answer/a1342756"
         },
         {
           "fetch": "https://www.linkedin.com/help/linkedin/answer/137374"
