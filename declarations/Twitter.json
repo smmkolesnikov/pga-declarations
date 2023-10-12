@@ -113,22 +113,16 @@
       ],
       "combine": [
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules"
+          "fetch": "https://help.twitter.com/en/rules-and-policies/x-rules"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-threats-glorification"
+          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-speech"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/glorification-of-violence"
-        },
-        {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-groups"
+          "fetch": "https://help.x.com/en/rules-and-policies/violent-entities"
         },
         {
           "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
-        },
-        {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior"
         },
         {
           "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
@@ -164,7 +158,7 @@
           "fetch": "https://help.twitter.com/en/rules-and-policies/manipulated-media"
         },
         {
-          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy"
+          "fetch": "https://help.twitter.com/en/rules-and-policies/x-trademark-policy"
         },
         {
           "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
