@@ -47,8 +47,11 @@
       "executeClientScripts": true
     },
     "Trackers Policy": {
-      "fetch": "https://www.tiktok.com/legal/tiktok-website-cookies-policy?lang=en",
-      "select": "article"
+      "fetch": "https://www.tiktok.com/legal/page/global/cookie-policy/en",
+      "select": [
+        "[data-testid=\"policy-card\"]",
+        ".content"
+      ]
     }
   }
 }
