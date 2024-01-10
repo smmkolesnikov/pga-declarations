@@ -1,0 +1,17 @@
+{
+  "name": "Parler",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://parler.com/documents/privacypolicy.pdf",
+      "validUntil": "2023-12-12T18:32:42Z"
+    },
+    "Terms of Service": {
+      "fetch": "https://parler.com/documents/termsofservice.pdf",
+      "validUntil": "2023-12-12T18:32:42Z"
+    },
+    "Community Guidelines": {
+      "fetch": "https://parler.com/documents/guidelines.pdf",
+      "validUntil": "2023-12-12T18:32:42Z"
+    }
+  }
+}
