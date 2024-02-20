@@ -1,5 +1,6 @@
 {
-  "Terms of Service": {
+  "Terms of Service": [
+    {
     "fetch": "https://twitter.com/tos",
       "remove": [
        ".twtr-icon--base",
@@ -16,8 +17,10 @@
        "main[id=twtr-main]"
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
-   },
-   "Privacy Policy": {
+   }
+  ],
+   "Privacy Policy": [
+  {
      "fetch": "https://twitter.com/en/privacy",
      "remove": [
        ".twtr-icon--base",
@@ -34,8 +37,10 @@
        "main[id=twtr-main]"
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
-   },
-   "Developer Terms": {
+   }
+  ],
+   "Developer Terms": [
+  {
      "fetch": "https://developer.twitter.com/en/developer-terms/agreement",
      "select": [
        "#twtr-main"
@@ -45,8 +50,10 @@
        ".u07__notification"
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
-   },
-   "Copyright Claims Policy": {
+   }
+  ],
+   "Copyright Claims Policy": [
+  {
      "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
      "filter": [
        "removeScripts"
@@ -63,8 +70,10 @@
        ".b04-image"
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
-   },
-   "Law Enforcement Guidelines": {
+   }
+  ],
+   "Law Enforcement Guidelines": [
+  {
      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-law-enforcement-support",
      "select": [
        ".aem-Grid"
@@ -80,8 +89,10 @@
        ".twtr-component--first b"
     ],
     "validUntil": "2024-02-13T15:39:36.779Z"
-   },
-   "Trackers Policy": {
+   }
+  ],
+   "Trackers Policy": [
+  {
      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-cookies",
      "select": [
        ".aem-Grid"
@@ -94,8 +105,10 @@
        ".b17"
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
-   },
-   "Data Processor Agreement": {
+   }
+  ],
+   "Data Processor Agreement": [
+  {
      "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
      "select": [
        ".aem-Grid"
@@ -108,8 +121,10 @@
        ".b17"
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
-   },
- "Community Guidelines": {
+   }
+  ],
+ "Community Guidelines": [
+  {
      "select": [
        {
          "startBefore": "h1",
@@ -183,8 +198,10 @@
        }
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
-   },
-   "Deceased Users": {
+   }
+ ],
+   "Deceased Users": [
+  {
      "fetch": "https://help.twitter.com/en/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
      "select": [
        {
@@ -194,4 +211,5 @@
      ],
      "validUntil": "2024-02-13T15:39:36.779Z"
    }
+  ]
 }
