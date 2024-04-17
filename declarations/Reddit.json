@@ -11,6 +11,12 @@
       "remove": ".filter-holder",
       "select": "#main-content"
     },
+    "Trackers Policy": {
+      "fetch": "https://www.reddit.com/policies/cookies",
+      "select": [
+        "#main-content"
+      ]
+    },
     "Community Guidelines": {
       "select": [
         "#main-content"
