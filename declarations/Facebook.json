@@ -24,11 +24,14 @@
         ".k",
         ".l",
         ".bh",
-        "img[style=\"display:none\"]"
+        "img[style=\"display:none\"]",
+        "img",
+        ".bk"
       ],
       "filter": [
         "removeTrackingIDs"
-      ]
+      ],
+      "executeClientScripts": true
     },
     "Developer Terms": {
       "fetch": "https://developers.facebook.com/policy",
