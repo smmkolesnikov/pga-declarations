@@ -31,20 +31,19 @@
     "Community Guidelines": {
       "combine": [
         {
-          "fetch": "https://help.instagram.com/477434105621119",
+          "fetch": "https://transparency.meta.com/policies/community-standards/",
           "select": [
-            "[role=main]"
-          ],
-          "remove": [
-            "div[aria-label=\"Copy link\"]",
-            "[id='Related Articles']",
-            "fieldset",
-            "[role=navigation]"
+            "h1",
+            "[class~=_9nrg]",
+            "[class~=_9nrf]"
           ],
           "filter": [
-            "removeTrackingIDsE"
+            "removeTrackingIDsE",
+            "cleanUrls"
           ],
-          "executeClientScripts": true
+          "remove": [
+            "[class~=img]"
+          ]
         },
         {
           "fetch": "https://transparency.fb.com/policies/community-standards/adult-nudity-sexual-activity/",
