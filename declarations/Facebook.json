@@ -17,9 +17,7 @@
       ],
       "filter": [
         "cleanUrls",
-        "replaceInfoImageWithEmoji",
-        "removeEmptyAnchorsLinks",
-        "removeQueryParam"
+        "replaceInfoImageWithEmoji"
       ],
       "executeClientScripts": true
     },
