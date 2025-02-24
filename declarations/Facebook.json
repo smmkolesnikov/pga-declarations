@@ -4,11 +4,9 @@
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [
-        "div[role=main]"
+        "#root"
       ],
       "remove": [
-        ".k",
-        ".l",
         ".bh",
         "img[style=\"display:none\"]",
         "img",
