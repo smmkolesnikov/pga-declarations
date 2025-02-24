@@ -14,9 +14,7 @@
         ".p",
         ".k",
         "[href*='static.xx.fbcdn.net']",
-        ".u",
-        ".t",
-        ".n"
+        "[href*='facebook.com']"
       ],
       "filter": [
         "cleanUrls",
