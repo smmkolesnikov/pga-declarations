@@ -6,6 +6,14 @@
       "select": [
         "div[role=main]"
       ],
+      "remove": [
+        ".k",
+        ".l",
+        ".bh",
+        "img[style=\"display:none\"]",
+        "img",
+        ".bk"
+      ],
       "filter": [
         "cleanUrls",
         "replaceInfoImageWithEmoji"
