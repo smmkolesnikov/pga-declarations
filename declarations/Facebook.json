@@ -13,7 +13,7 @@
         "img[style=\"display:none\"]",
         "img",
         ".bk",
-        ".u"
+        ".p"
       ],
       "filter": [
         "cleanUrls",
