@@ -11,11 +11,15 @@
         "img[style=\"display:none\"]",
         "img",
         ".bk",
-        ".p"
+        ".p",
+        ".k",
+        "[href*='static.xx.fbcdn.net']"
       ],
       "filter": [
         "cleanUrls",
-        "replaceInfoImageWithEmoji"
+        "replaceInfoImageWithEmoji",
+        "removeEmptyAnchorsLinks",
+        "removeQueryParam"
       ],
       "executeClientScripts": true
     },
