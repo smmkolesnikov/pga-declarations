@@ -13,11 +13,15 @@
         ".bk",
         ".p",
         ".k",
-        "[href*='static.xx.fbcdn.net']"
+        "[href*='static.xx.fbcdn.net']",
+        ".u",
+        ".t",
+        ".n"
       ],
       "filter": [
         "cleanUrls",
-        "replaceInfoImageWithEmoji"
+        "replaceInfoImageWithEmoji",
+        "removeReturnToTopButtons"
       ],
       "executeClientScripts": true
     },
