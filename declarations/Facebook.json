@@ -4,14 +4,22 @@
     "Terms of Service": {
       "fetch": "https://www.facebook.com/legal/terms/plain_text_terms",
       "select": [
-        {
-          "startBefore": "div[role=main]",
-          "endBefore": "[role=\"separator\"]:first-child"
-        }
+        "#root"
+      ],
+      "remove": [
+        ".bh",
+        "img[style=\"display:none\"]",
+        "img",
+        ".bk",
+        ".p",
+        ".k",
+        "[href*='static.xx.fbcdn.net']",
+        "[href*='facebook.com']"
       ],
       "filter": [
         "cleanUrls",
-        "replaceInfoImageWithEmoji"
+        "replaceInfoImageWithEmoji",
+        "removeReturnToTopButtons"
       ],
       "executeClientScripts": true
     },
