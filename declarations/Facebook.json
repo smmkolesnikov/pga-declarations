@@ -12,7 +12,8 @@
         ".bh",
         "img[style=\"display:none\"]",
         "img",
-        ".bk"
+        ".bk",
+        ".u"
       ],
       "filter": [
         "cleanUrls",
